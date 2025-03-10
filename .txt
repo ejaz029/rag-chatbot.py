@@ -1,0 +1,11 @@
+    print(f"Bot: {response}")
+    #next step or last step
+    # Step 7: Talk to the robot!
+while True:
+    query = input("🏇 Ride forward, traveler, and ask your question: ")
+    if query.lower() in ["exit", "quit"]:
+        print("\n⚔️ The Great Khan bids you farewell! Ride with honor. ⚔️\n")
+        break
+    response = rag_chatbot(query)
+    #using colorama to add colors to the response
+    print(f"{Fore.BLUE}Historian: {response}{Style.RESET_ALL}")
