@@ -1,1 +1,1 @@
-this is chatbot using RAG archi
+this is chatbot using RAG architecture
